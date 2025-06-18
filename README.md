@@ -54,30 +54,20 @@ It mimics a simple form of "Jarvis" that understands commands, executes them, an
 ---
 
 ## Limitations
-Requires initial model download (~4-5 GB).
+1. Requires initial model download (~4-5 GB).
+2. LLM inference may consume significant RAM (4GB minimum for quantized models).
+3. Currently supports English speech only.
 
-LLM inference may consume significant RAM (4GB minimum for quantized models).
+## Future Plans
+1. Multi-language support
+2. GUI improvements
+3. More offline tools integration
+4. Intent classification improvement
 
-Currently supports English speech only.
-
-Future Plans
-Multi-language support
-
-GUI improvements
-
-More offline tools integration
-
-Intent classification improvement
-
-Credits
-llama.cpp
-
-OpenHermes 2.5 (Mistral-based model)
-
-Pyttsx3
-
-SpeechRecognition
-
-BeautifulSoup
-
-Python community!
+## Credits
+1. llama.cpp
+2. OpenHermes 2.5 (Mistral-based model)
+3. Pyttsx3
+4. SpeechRecognition
+5. BeautifulSoup
+6. Python community!
