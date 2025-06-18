@@ -1,0 +1,8 @@
+pyttsx3
+speechrecognition
+sounddevice
+pyautogui
+beautifulsoup4
+requests
+speedtest-cli
+llama-cpp-python
